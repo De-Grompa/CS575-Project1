@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>OurVenn</title>
+        <title>OurVenn Sign Up</title>
     </head>
     <nav>
         <form action="Phase2_OurVenn.com.html">
@@ -14,9 +14,12 @@
             <input type="submit" value="About" />
     </nav>
     <body>
-        <img src="OurVennLogo.svg" alt="OurVenn Logo" style="display: block; margin-left: auto; margin-right: auto; width: 20%;">
-        <h1 style="text-align: center; color: darkblue">OurVenn</h1>
-        <p>OurVenn is a social network that allows you to connect with people who share your interests.</p>
-        <p>OurVenn is currently in development. Check back soon for updates!</p>
+        <form action="login.php" method="post">
+            <p>Email: <input type="text" name="email" /></p>
+            <p>Username: <input type="text" name="username" /></p>
+            <p>Password: <input type="password" name="password" /></p>
+            <p>Confirm Password: <input type="password" name="password" /></p>
+            <p><input type="submit" value="Login" /></p>
+        </form>
     </body>
 </html>
