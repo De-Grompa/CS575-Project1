@@ -30,3 +30,9 @@ nav input[type=text] {
     background-color: white;
     padding: 12px 12px 12px 12px;
 }
+nav img {
+    float: left;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}
