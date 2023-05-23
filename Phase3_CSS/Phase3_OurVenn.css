@@ -9,7 +9,7 @@ nav {
     white-space: nowrap;
 }
 nav input[type=submit] {
-    display: inline-block;
+    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
