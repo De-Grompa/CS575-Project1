@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+nav input[type=submit] {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+nav input[type=submit]:hover {
+    background-color: #111;
+}
+nav input[type=text] {
+    float: right;
+    width: 200px;
+    border: 2px solid gainsboro;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: white;
+    padding: 12px;
+}
+nav img {
+    float: left;
+    padding: 10px;
+    width: 25px;
+    height: 25px;
+}
+body form[name=login] {
+    float: center;
+    background-color: #333;
+    text-align: center;
+    color: gainsboro;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
+}
