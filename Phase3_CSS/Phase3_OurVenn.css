@@ -28,11 +28,20 @@ nav input[type=text] {
     border-radius: 4px;
     font-size: 12px;
     background-color: white;
-    padding: 12px 12px 12px 12px;
+    padding: 12px;
 }
 nav img {
     float: left;
     padding: 10px;
     width: 25px;
     height: 25px;
+}
+body form[name=login] {
+    float: center;
+    background-color: #333;
+    text-align: center;
+    color: gainsboro;
+    padding: 20px;
+    margin: 0;
+    padding: 0;
 }
