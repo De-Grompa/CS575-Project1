@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>OurVenn</title>
+        <link rel="stylesheet" type="text/css" href="Phase4_OurVenn.css">
+    </head>
+    <nav>
+        <img src="OurVennLogo.svg" alt="OurVenn Logo" style="display: block; margin-left: auto; margin-right: auto; width: 5%;">
+        <form action="Phase4_OurVenn.com.html">
+            <input type="submit" value="Home" />
+        </form>
+        <form action="Phase4_OurVenn.com_Login.html">
+            <input type="submit" value="Login" />
+        </form>
+        <form action="Phase4_OurVenn.com_SignUp.html">
+            <input type="submit" value="Sign Up" />
+        </form>
+        <form action="Phase4_OurVenn.com_About.html">
+            <input type="submit" value="About" />
+        </form>
+        <a href="Phase4_OurVenn.com_myUser.html"><img src="defaultprofile.png" alt="Profile Picture" style="float: right; display: block; margin-left: auto; margin-right: auto; width: 2%;"></a>
+        <button type="submit" class="searchButton">Search</button>
+        <input type="text" placeholder="Search..."/>
+    </nav>
+    <body>
+        <div id="content">
+            <!-- Login form -->
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+                <p>Email: <input type="text" name="email" /></p>
+                <p>Password: <input type="password" name="password" /></p>
+                <p><input type="submit" value="Login" /></p>
+            </form>
+
+            <!-- Post creation form -->
+            <h2>Create Post</h2>
+            <form action="create_post.php" method="post">
+                <p>Title: <input type="text" name="title" /></p>
+                <p>Content: <textarea name="content"></textarea></p>
+                <p><input type="submit" value="Create Post" /></p>
+            </form>
+        </div>
+    </body>
+</html>
