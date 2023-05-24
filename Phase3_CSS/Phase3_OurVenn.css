@@ -45,3 +45,9 @@ body form[name=login] {
     margin: 0;
     padding: 0;
 }
+footer{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
